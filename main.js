@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ===== SCROLL FADE-UP ANIMATIONS =====
     const fadeElements = document.querySelectorAll(
-        '.product-card, .about-feature, .application-card, .stat-item, .section-tag, .section-title, .contact-left, .contact-form-wrapper, .contact-info-right, .footer-col'
+        '.product-card, .about-feature, .application-card, .stat-item, .section-tag, .section-title, .contact-left, .contact-form-wrapper, .contact-info-right, .footer-col, .fade-up'
     );
     fadeElements.forEach(el => el.classList.add('fade-up'));
 
